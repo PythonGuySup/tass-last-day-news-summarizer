@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     summary = generate_daily_summary()
 
-    with open("latest_summary.txt", "w", encoding="utf-8") as f:
+    with open("../summaries/latest_summary.txt", "w", encoding="utf-8") as f:
         f.write(summary)
 
     print("\nСводка сохранена в файлы 'summary_...' и 'latest_summary.txt'")
