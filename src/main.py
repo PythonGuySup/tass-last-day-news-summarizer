@@ -43,7 +43,7 @@ def generate_daily_summary():
 
 def save_results(summary: str, articles: list):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-    filename = f"summary_{timestamp}.txt"
+    filename = f"../summaries/summary_{timestamp}.txt"
 
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(f"СВОДКА НОВОСТЕЙ ТАСС\n")
