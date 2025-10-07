@@ -1,0 +1,6 @@
+MODEL_NAME = "IlyaGusev/rut5_base_sum_gazeta"
+TASS_URL = "https://tass.ru"
+MAX_INPUT_TOKENS = 512
+MIN_OUTPUT_LENGTH = 60
+MAX_OUTPUT_LENGTH = 120
+UPDATE_INTERVAL_HOURS = 24
